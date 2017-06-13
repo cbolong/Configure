@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#apt-get install -y samba
+apt-get install -y samba
 SMB_CONF="/etc/samba/smb.conf"
 chmod 777 $SMB_CONF
 echo "[public]" >> $SMB_CONF
